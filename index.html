@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - H5 Game Lab</title>
+    <link rel="canonical" href="https://h5gamelab.online/monster-survivors" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+        }
+        .game-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .game-frame {
+            aspect-ratio: 16/9;
+            width: 100%;
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .apple-blue {
+            color: #0066CC;
+        }
+        .apple-bg-blue {
+            background-color: #0066CC;
+        }
+        .apple-green {
+            color: #4CD964;
+        }
+        .apple-red {
+            color: #FF3B30;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container px-4 py-8 md:px-8 md:py-12">
+        <header class="mb-8">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 apple-blue">Monster Survivors</h1>
+            <p class="text-xl md:text-2xl text-gray-600">Survive endless waves of monsters in this thrilling action-packed adventure!</p>
+        </header>
+
+        <div class="mb-8">
+            <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" class="game-frame" allowfullscreen></iframe>
+        </div>
+
+        <section class="mb-8">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 apple-blue">Game Overview</h2>
+            <p class="text-lg mb-4">Monster Survivors is an intense survival game where you must fend off increasingly difficult waves of monsters. Use your skills and strategy to survive as long as possible in this challenging environment.</p>
+            <p class="text-lg">Collect power-ups, upgrade your abilities, and discover new weapons as you battle through hordes of unique enemies. How long can you survive?</p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 apple-blue">How to Play</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2 apple-green">Controls</h3>
+                    <p>Use WASD or arrow keys to move your character. Aim with your mouse and click to attack. Collect experience orbs to level up and choose new abilities.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2 apple-red">Objectives</h3>
+                    <p>Survive as long as possible against endless waves of monsters. Defeat bosses to unlock new areas and abilities. Achieve the highest score possible!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 apple-blue">Features</h2>
+            <ul class="list-disc pl-6 text-lg space-y-2">
+                <li>Endless gameplay with increasing difficulty</li>
+                <li>Multiple character classes with unique abilities</li>
+                <li>Dozens of weapons and power-ups to discover</li>
+                <li>Challenging boss battles</li>
+                <li>Leaderboards to compete with players worldwide</li>
+            </ul>
+        </section>
+
+        <footer class="text-center text-gray-600 pt-8 border-t border-gray-300">
+            <p>&copy; 2023 H5 Game Lab. All rights reserved.</p>
+            <p class="mt-2">Monster Survivors is available exclusively on <a href="https://h5gamelab.online" class="apple-blue hover:underline">h5gamelab.online</a></p>
+        </footer>
+    </div>
+</body>
+</html>
